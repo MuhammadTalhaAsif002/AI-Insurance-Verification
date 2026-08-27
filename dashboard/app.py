@@ -123,8 +123,12 @@ chart_data = df[
     ]
 ].set_index("note_id")
 
-st.bar_chart(chart_data)
-
+# st.bar_chart(chart_data)
+# st.bar_chart(chart_data)
+st.bar_chart(
+    chart_data,
+    stack=False
+)
 
 # -----------------------------
 # Time Saved Chart
