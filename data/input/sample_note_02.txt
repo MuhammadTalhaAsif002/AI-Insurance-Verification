@@ -1,0 +1,20 @@
+Insurance Verification Note
+
+Patient: Usman Malik
+DOB: 11/22/1995
+Insurance: HealthFirst
+Member ID: HF99281
+Group: G4501
+Plan: HMO
+
+Eligibility verified and coverage is active.
+Primary care copay is $25.
+Specialist copay is $50.
+Deductible is $1,000 with $400 remaining.
+Coinsurance is 10%.
+
+Referral is required for specialist services.
+Prior authorization was confirmed as required for the requested procedure.
+
+Verification completed by Sara.
+Date: 08/25/2026

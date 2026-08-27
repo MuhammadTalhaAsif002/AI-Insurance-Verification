@@ -1,0 +1,95 @@
+{
+  "patient_name": {
+    "value": "Sarah Ahmed",
+    "status": "CONFIRMED",
+    "note": "Explicitly stated in the verification note."
+  },
+  "date_of_birth": {
+    "value": "03/17/1998",
+    "status": "CONFIRMED",
+    "note": "Explicitly stated in the verification note."
+  },
+  "insurance_provider": {
+    "value": "Blue Horizon Health",
+    "status": "CONFIRMED",
+    "note": "Stated as primary insurance."
+  },
+  "member_id": {
+    "value": "BH458921",
+    "status": "CONFIRMED",
+    "note": "Explicitly stated in the verification note."
+  },
+  "group_number": {
+    "value": "GRP7821",
+    "status": "CONFIRMED",
+    "note": "Explicitly stated in the verification note."
+  },
+  "plan_type": {
+    "value": "PPO",
+    "status": "CONFIRMED",
+    "note": "Explicitly stated in the verification note."
+  },
+  "coverage_status": {
+    "value": "Active",
+    "status": "CONFIRMED",
+    "note": "Payer portal check returned 'appears active' for the requested service date; exact service date not documented in note."
+  },
+  "service_date": {
+    "value": null,
+    "status": "MISSING",
+    "note": "Note references 'the requested service date' but no actual date is provided."
+  },
+  "deductible": {
+    "value": "$1,500",
+    "status": "CONFIRMED",
+    "note": "Explicitly stated in the verification note."
+  },
+  "deductible_remaining": {
+    "value": "$900",
+    "status": "CONFIRMED",
+    "note": "Explicitly stated in the verification note."
+  },
+  "copay": {
+    "value": "$40",
+    "status": "CONFIRMED",
+    "note": "Specialist visit copay; other copay tiers (e.g., PCP, ER) not mentioned."
+  },
+  "coinsurance": {
+    "value": "20%",
+    "status": "CONFIRMED",
+    "note": "Explicitly stated in the verification note."
+  },
+  "referral_required": {
+    "value": "Not confirmed",
+    "status": "NEEDS_VERIFICATION",
+    "note": "Note explicitly states the referral requirement was not confirmed."
+  },
+  "prior_authorization": {
+    "value": "Not confirmed",
+    "status": "NEEDS_VERIFICATION",
+    "note": "Representative could not confirm whether prior authorization is required for this procedure."
+  },
+  "out_of_network_benefits": {
+    "value": "Not available",
+    "status": "NEEDS_VERIFICATION",
+    "note": "Out-of-network benefit details were not returned in the verification response."
+  },
+  "verification_date": {
+    "value": "08/25/2026",
+    "status": "CONFIRMED",
+    "note": "Explicitly stated in the verification note."
+  },
+  "verified_by": {
+    "value": "Ali",
+    "status": "CONFIRMED",
+    "note": "First name only provided; no last name or credential listed."
+  },
+  "overall_summary": "Patient demographics, insurance identifiers (Member ID, Group #, Plan), and cost-sharing amounts (deductible, deductible remaining, specialist copay, coinsurance) are confirmed. Coverage shows as active per payer portal, though the exact service date is not documented. Prior authorization, referral requirement, and out-of-network benefits could not be confirmed and require follow-up before the service date.",
+  "human_review_required": true,
+  "review_items": [
+    "Confirm prior authorization requirement for the procedure before service is rendered.",
+    "Confirm referral requirement with the payer.",
+    "Obtain out-of-network benefit details if an out-of-network provider may be involved.",
+    "Document the specific service date; not stated in the verification note."
+  ]
+}

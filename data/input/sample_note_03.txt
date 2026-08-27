@@ -1,0 +1,16 @@
+Insurance Verification Note
+
+Patient: Ayesha Khan
+Insurance: PrimeCare
+Member ID: PC77123
+
+Eligibility could not be confirmed because the payer portal
+was unavailable.
+
+Deductible information was not available.
+Copay information was not available.
+Referral requirement is unknown.
+Prior authorization is unknown.
+
+Verification attempted by Ahmed.
+Date: 08/25/2026

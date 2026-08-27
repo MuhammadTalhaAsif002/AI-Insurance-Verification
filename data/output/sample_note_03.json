@@ -1,0 +1,101 @@
+{
+  "patient_name": {
+    "value": "Ayesha Khan",
+    "status": "CONFIRMED",
+    "note": "Explicitly stated in the verification note."
+  },
+  "date_of_birth": {
+    "value": null,
+    "status": "MISSING",
+    "note": "Not mentioned anywhere in the verification note."
+  },
+  "insurance_provider": {
+    "value": "PrimeCare",
+    "status": "CONFIRMED",
+    "note": "Explicitly stated in the verification note."
+  },
+  "member_id": {
+    "value": "PC77123",
+    "status": "CONFIRMED",
+    "note": "Explicitly stated in the verification note."
+  },
+  "group_number": {
+    "value": null,
+    "status": "MISSING",
+    "note": "Not mentioned anywhere in the verification note."
+  },
+  "plan_type": {
+    "value": null,
+    "status": "MISSING",
+    "note": "Not mentioned anywhere in the verification note."
+  },
+  "coverage_status": {
+    "value": "Unable to confirm",
+    "status": "NEEDS_VERIFICATION",
+    "note": "Eligibility could not be confirmed because the payer portal was unavailable."
+  },
+  "service_date": {
+    "value": null,
+    "status": "MISSING",
+    "note": "Not mentioned anywhere in the verification note."
+  },
+  "deductible": {
+    "value": null,
+    "status": "NEEDS_VERIFICATION",
+    "note": "Note states deductible information was not available; no figures could be retrieved."
+  },
+  "deductible_remaining": {
+    "value": null,
+    "status": "NEEDS_VERIFICATION",
+    "note": "Covered under the note's general statement that deductible information was not available; remaining balance unknown."
+  },
+  "copay": {
+    "value": null,
+    "status": "NEEDS_VERIFICATION",
+    "note": "Note states copay information was not available; no tier-specific amounts could be retrieved."
+  },
+  "coinsurance": {
+    "value": null,
+    "status": "MISSING",
+    "note": "Not mentioned anywhere in the verification note."
+  },
+  "referral_required": {
+    "value": "Unknown",
+    "status": "NEEDS_VERIFICATION",
+    "note": "Explicitly stated as unknown in the verification note."
+  },
+  "prior_authorization": {
+    "value": "Unknown",
+    "status": "NEEDS_VERIFICATION",
+    "note": "Explicitly stated as unknown in the verification note."
+  },
+  "out_of_network_benefits": {
+    "value": null,
+    "status": "MISSING",
+    "note": "Not mentioned anywhere in the verification note."
+  },
+  "verification_date": {
+    "value": "08/25/2026",
+    "status": "CONFIRMED",
+    "note": "Explicitly stated in the verification note."
+  },
+  "verified_by": {
+    "value": "Ahmed",
+    "status": "CONFIRMED",
+    "note": "Named as the representative who attempted verification; the attempt was largely unsuccessful due to payer portal unavailability."
+  },
+  "overall_summary": "This verification attempt was largely unsuccessful due to payer portal unavailability. Only patient name, insurance provider, and member ID were confirmed. Eligibility, deductible, copay, referral requirement, and prior authorization all require re-verification once the portal is accessible. Date of birth, group number, plan type, service date, coinsurance, and out-of-network benefits were not addressed in the note at all.",
+  "human_review_required": true,
+  "review_items": [
+    "Re-attempt eligibility verification once the payer portal is available.",
+    "Obtain deductible and deductible remaining amounts.",
+    "Obtain copay information (primary care and specialist, if applicable).",
+    "Confirm referral requirement.",
+    "Confirm prior authorization requirement for the intended procedure.",
+    "Obtain patient date of birth.",
+    "Obtain group number and plan type.",
+    "Obtain coinsurance percentage.",
+    "Obtain out-of-network benefit details, if applicable.",
+    "Document the intended service date."
+  ]
+}

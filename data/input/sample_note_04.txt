@@ -1,0 +1,22 @@
+Insurance Verification Note
+
+Patient: Hamza Ali
+DOB: 06/09/1997
+Insurance: SecureHealth
+Member ID: SH55432
+Group: G8892
+Plan: PPO
+
+Coverage is active.
+
+Deductible: $2,000
+Remaining deductible: $1,250
+Specialist copay: $35
+Coinsurance: 20%
+
+The representative confirmed that no referral is required.
+Prior authorization may be required depending on the procedure.
+The representative advised checking the procedure-specific requirements.
+
+Verification completed by Bilal.
+Date: 08/25/2026

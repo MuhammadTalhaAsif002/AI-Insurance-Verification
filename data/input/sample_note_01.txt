@@ -1,0 +1,27 @@
+Insurance Verification Note
+
+Patient: Sarah Ahmed
+DOB: 03/17/1998
+
+Primary insurance: Blue Horizon Health
+Member ID: BH458921
+Group #: GRP7821
+Plan: PPO
+
+Coverage was checked through the payer portal and appears active
+for the requested service date.
+
+Specialist copay is $40.
+Deductible is $1,500, with $900 remaining.
+Coinsurance is 20%.
+
+The representative could not confirm whether prior authorization
+is required for this particular procedure.
+
+Referral requirement was not confirmed.
+
+Out-of-network benefits were not available in the verification
+response.
+
+Verification completed by: Ali
+Date: 08/25/2026

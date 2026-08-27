@@ -1,0 +1,5 @@
+note_id,manual_time_minutes,ai_assisted_time_minutes,review_required,issues_detected
+sample_note_01,8,3,True,4
+sample_note_02,7,2,True,2
+sample_note_03,10,3,True,10
+sample_note_04,8,2,True,3
