@@ -18,6 +18,7 @@ The system follows a **human-in-the-loop** approach. AI assists with information
 
 ## Workflow
 
+```text
 Unstructured Insurance Note
             ↓
        Claude AI
@@ -33,7 +34,7 @@ Unstructured Insurance Note
    Performance Evaluation
             ↓
       Operations Dashboard
-
+```
 
 ## Key Features
 
@@ -51,6 +52,7 @@ Unstructured Insurance Note
 
 ### Input
 
+```text
 Insurance Verification Note
 
 Patient: Sarah Ahmed
@@ -71,6 +73,7 @@ The representative could not confirm whether prior authorization
 is required for this particular procedure.
 
 Referral requirement was not confirmed.
+```
 
 ### AI-Assisted Output
 
@@ -116,15 +119,18 @@ The workflow intentionally does not allow the AI to make unsupported assumptions
 
 For example:
 
+```text
 Prior Authorization
 Value: Not confirmed
 Status: NEEDS_VERIFICATION
-
+```
 
 Instead of assuming:
 
+```text
 Prior Authorization
 Value: No
+```
 
 This reduces the risk of treating missing information as confirmed information.
 
@@ -146,6 +152,7 @@ The workflow therefore separates:
 
 ## Project Structure
 
+```text
 AI-Insurance-Verification/
 │
 ├── dashboard/
@@ -169,6 +176,7 @@ AI-Insurance-Verification/
 ├── README.md
 ├── requirements.txt
 └── .gitignore
+```
 
 ## Dashboard
 
@@ -256,15 +264,3 @@ The prompt, processing logic, and evaluation components are separated so the wor
 ## Disclaimer
 
 This project is a portfolio demonstration and is not intended for real-world medical, insurance, clinical, or legal decision-making.
-
-
-
-After saving, run:
-
-```powershell
-git add README.md
-git commit -m "Update project documentation"
-git push
-
-
-Then **we deploy the dashboard live.**
