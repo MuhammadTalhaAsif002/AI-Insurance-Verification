@@ -1,6 +1,3 @@
-Yes. Replace your current `README.md` with this updated version. I've changed the performance section so we're **transparent that the timing benchmark is simulated/illustrative**, while still presenting the project professionally.
-
-````markdown
 # AI Insurance Verification Workflow
 
 A Claude-assisted workflow that transforms unstructured insurance verification notes into standardized, review-ready information.
@@ -19,11 +16,8 @@ This project demonstrates how Claude can assist with this repetitive knowledge-w
 
 The system follows a **human-in-the-loop** approach. AI assists with information preparation and organization, while final verification remains the responsibility of a human reviewer.
 
----
-
 ## Workflow
 
-```text
 Unstructured Insurance Note
             ↓
        Claude AI
@@ -39,9 +33,7 @@ Unstructured Insurance Note
    Performance Evaluation
             ↓
       Operations Dashboard
-````
 
----
 
 ## Key Features
 
@@ -55,13 +47,10 @@ Unstructured Insurance Note
 * Provides an interactive Streamlit operations dashboard
 * Uses fictional data for all demonstrations
 
----
-
 ## Example
 
 ### Input
 
-```text
 Insurance Verification Note
 
 Patient: Sarah Ahmed
@@ -82,7 +71,6 @@ The representative could not confirm whether prior authorization
 is required for this particular procedure.
 
 Referral requirement was not confirmed.
-```
 
 ### AI-Assisted Output
 
@@ -101,8 +89,6 @@ Referral requirement was not confirmed.
 | Referral            | Not confirmed       | NEEDS_VERIFICATION |
 
 The workflow also generates specific follow-up actions for information requiring human verification.
-
----
 
 ## Performance Evaluation
 
@@ -124,26 +110,21 @@ These timing figures are **simulated benchmark values** created for portfolio de
 
 The evaluation framework is designed so that real operational timings could be substituted when the workflow is tested with actual users.
 
----
-
 ## Human-in-the-Loop Design
 
 The workflow intentionally does not allow the AI to make unsupported assumptions.
 
 For example:
 
-```text
 Prior Authorization
 Value: Not confirmed
 Status: NEEDS_VERIFICATION
-```
+
 
 Instead of assuming:
 
-```text
 Prior Authorization
 Value: No
-```
 
 This reduces the risk of treating missing information as confirmed information.
 
@@ -152,8 +133,6 @@ The workflow therefore separates:
 * **Confirmed information**
 * **Missing information**
 * **Information requiring verification**
-
----
 
 ## Technology
 
@@ -165,11 +144,8 @@ The workflow therefore separates:
 * JSON
 * Git & GitHub
 
----
-
 ## Project Structure
 
-```text
 AI-Insurance-Verification/
 │
 ├── dashboard/
@@ -193,15 +169,12 @@ AI-Insurance-Verification/
 ├── README.md
 ├── requirements.txt
 └── .gitignore
-```
-
----
 
 ## Dashboard
 
 The Streamlit dashboard provides an operational view of the workflow.
 
-### Dashboard metrics
+### Dashboard Metrics
 
 * Notes processed
 * Average time saved
@@ -218,8 +191,6 @@ Run the dashboard locally:
 streamlit run dashboard/app.py
 ```
 
----
-
 ## AI Workflow
 
 The core Claude workflow instructs the model to:
@@ -232,8 +203,6 @@ The core Claude workflow instructs the model to:
 6. Flag information requiring human verification
 7. Generate a standardized verification summary
 8. Return structured JSON
-
----
 
 ## Current Implementation
 
@@ -249,8 +218,6 @@ Python handles:
 
 This approach allows the workflow to be demonstrated without requiring an API key.
 
----
-
 ## Future Improvements
 
 * Claude API integration for end-to-end automation
@@ -262,15 +229,11 @@ This approach allows the workflow to be demonstrated without requiring an API ke
 * Integration with operational systems
 * Real-user timing and accuracy evaluation
 
----
-
 ## Data Privacy
 
 All patient and insurance information included in this repository is **fictional** and created solely for demonstration purposes.
 
 No real patient records or protected health information are included.
-
----
 
 ## Design Principles
 
@@ -290,34 +253,18 @@ The project includes an evaluation framework to measure processing time and pote
 
 The prompt, processing logic, and evaluation components are separated so the workflow can be adapted to similar knowledge-work processes.
 
----
-
 ## Disclaimer
 
 This project is a portfolio demonstration and is not intended for real-world medical, insurance, clinical, or legal decision-making.
 
-````
 
-### After replacing the README
 
-Run:
+After saving, run:
 
 ```powershell
 git add README.md
-````
-
-**Stages the updated README.**
-
-```powershell
-git commit -m "Update project documentation and evaluation"
-```
-
-**Saves the README changes.**
-
-```powershell
+git commit -m "Update project documentation"
 git push
-```
 
-**Uploads the changes to GitHub.**
 
-Then we're ready for the **live deployment**.
+Then **we deploy the dashboard live.**
