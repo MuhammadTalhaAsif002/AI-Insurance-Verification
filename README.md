@@ -3,6 +3,12 @@
 A Claude-assisted workflow that transforms unstructured insurance verification notes into standardized, review-ready information.
 
 Live Demo Link : https://bsvmxdtunsms5x6rbjrsy5.streamlit.app/
+
+<img width="1232" height="428" alt="image" src="https://github.com/user-attachments/assets/811ffbc3-e97a-470b-a347-65d4f5c3713f" />
+
+
+
+
 ## Overview
 
 Insurance verification teams often work with unstructured notes containing patient information, insurance details, eligibility information, deductibles, copays, referrals, and authorization requirements.
