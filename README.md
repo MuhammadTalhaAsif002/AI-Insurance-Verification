@@ -4,6 +4,11 @@ A Claude-assisted workflow that transforms unstructured insurance verification n
 
 Live Demo Link : https://bsvmxdtunsms5x6rbjrsy5.streamlit.app/
 
+<img width="1901" height="804" alt="image" src="https://github.com/user-attachments/assets/80e5f859-4a8b-4f31-9979-db92bcab7d6b" />
+
+
+
+
 <img width="1232" height="428" alt="image" src="https://github.com/user-attachments/assets/811ffbc3-e97a-470b-a347-65d4f5c3713f" />
 
 
